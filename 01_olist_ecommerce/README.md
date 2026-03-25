@@ -48,6 +48,7 @@ E-commerce datasets often contain one-to-many relationships across orders, items
 - [`dashboard/powerbi_blueprint.md`](./dashboard/powerbi_blueprint.md): Power BI build plan, model, and starter DAX measures
 - [`dashboard/powerbi_build_order.md`](./dashboard/powerbi_build_order.md): exact step-by-step order to build the dashboard
 - [`dashboard/windows_powerbi_quickstart.md`](./dashboard/windows_powerbi_quickstart.md): short handoff checklist for building the dashboard on Windows
+- [`dashboard/windows_command_pack.md`](./dashboard/windows_command_pack.md): copy-paste command pack for the Windows setup
 - [`scripts/load_olist_csvs.sh`](./scripts/load_olist_csvs.sh): load the required CSV files into PostgreSQL
 
 ## Data Quality Checks
