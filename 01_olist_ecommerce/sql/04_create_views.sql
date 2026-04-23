@@ -66,3 +66,23 @@ SELECT
     oi.freight_value AS item_freight
 FROM order_items oi
 LEFT JOIN products p ON oi.product_id = p.product_id;
+
+-- 5. Fact: Order Reviews (Customer Satisfaction)
+CREATE OR REPLACE VIEW fact_reviews AS
+SELECT
+    review_id,
+    order_id,
+    review_score,
+    review_creation_date::timestamp AS review_creation_date,
+    review_answer_timestamp::timestamp AS review_answer_timestamp
+FROM order_reviews;
+
+-- 6. Fact: Order Payments
+CREATE OR REPLACE VIEW fact_order_payments AS
+SELECT
+    order_id,
+    payment_sequential,
+    payment_type,
+    payment_installments,
+    payment_value
+FROM order_payments;
