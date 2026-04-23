@@ -4,10 +4,6 @@
     3. Do customers in certain states spend more?
 */
 
--- Run 04_create_views.sql before these queries.
--- clean_orders = order grain
--- clean_order_category_sales = order-category grain
-
 -- Q1. How does revenue change over time?
 -- Revenue uses payment_value and excludes canceled / unavailable orders.
 SELECT
