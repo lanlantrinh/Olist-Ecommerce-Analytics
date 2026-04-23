@@ -1,4 +1,4 @@
-## Olist E-commerce Analytics: Operations & CX Dashboard
+## Olist E-commerce Data Analysis 
 ### 1. The Dataset
 - **Source:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - **Context:** Olist is the largest department store in Brazilian marketplaces. This dataset contains information of 100,000+ orders made at multiple marketplaces in Brazil from 2016 to 2018. Its features allow viewing an order from multiple dimensions: from order status, price, payment, and freight performance to customer location, product attributes, and reviews.
